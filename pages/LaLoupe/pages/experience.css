@@ -1,0 +1,88 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    background: -webkit-linear-gradient(left,lightblue, teal); 
+    background: -o-linear-gradient(right,lightblue, teal);
+    background: -moz-linear-gradient(right,lightblue, teal); 
+    background: linear-gradient(to right,lightblue, teal);
+
+    
+}
+
+.retour a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a {
+    color: lime;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px #ab4040;
+}
+
+p .ampoule {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+
+}
+
+
+ span {
+   
+    text-align: center;
+    position: relative;
+    /*font-weight: 700;*/
+    cursor: pointer;
+}
+span a {
+    text-decoration: none;
+    
+}
+ span::after {
+    content: '';
+    display: block;
+    width: 0px;
+    margin: 5px auto 0px auto;
+    height: 2px;
+    border-radius: 2px;
+    background: red;
+    transition: all 0.2s ease-out;
+}
+.voitures:hover::after {
+    width: 60%;
+}
+
+.ponts:hover::after {
+    width: 40%;
+
+
+}
+
+
+
+.machines:hover::after {
+    width: 60%;
+
+
+}
+
+
+.circuits:hover::after {
+    width: 80%;
+
+
+}
+
+
+
+
+
+

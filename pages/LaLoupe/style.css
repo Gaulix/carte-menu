@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color:navy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+article h1 {
+    text-align: center;
+}
+
+#cookiesAccept {
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    text-align: center;
+}
+#cookiesAccept.active {
+    display: none;
+}
+#cookiesAccept a, #filArianne a {
+    color: blue;
+}
+#cookiesAccept button {
+    padding: 5px 16px;
+    margin-left: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid olive;
+    color: olive;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#cookiesAccept button:hover {
+    background: olive;
+    color: white;
+}
+
+.infos-cookies {
+    text-align: justify;
+}

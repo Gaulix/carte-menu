@@ -1,0 +1,33 @@
+body {
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	font-size: 20px;
+	color: red;
+	text-decoration: underline;
+	
+
+   }
+
+
+
+
+
+img {
+	width: 500px;
+	margin-top: 10px;
+}
+
+.retour {
+	margin-top: 10px;
+	
+	font-size: 14px;
+}
+
+div .retour a{
+	
+	text-decoration: none;
+	
+}

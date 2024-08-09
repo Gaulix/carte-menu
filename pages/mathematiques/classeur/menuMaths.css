@@ -1,0 +1,30 @@
+
+
+
+body {
+
+	background-color: #C99;
+}
+ .mention {
+color:white;
+font-size: 1em;
+}
+
+
+
+@media all and (min-width: 1400px)
+{
+    
+    img {
+        
+        width:80%;
+    }
+          
+ .mention {
+color:red;
+font-size: 1.3em;
+}
+ 
+
+
+}

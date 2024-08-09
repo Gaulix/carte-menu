@@ -1,0 +1,256 @@
+
+
+
+/*.tableau tr #entete td:nth-child(1) {
+    text-align: center;
+}
+
+
+.tableau td:nth-child(1) {
+     display: flex;
+    justify-content: space-between;
+}*/
+
+
+body {
+    margin: 0;
+    padding:0;
+    font-family:  Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.titre{
+    font-size: 14px;
+    color: navy;
+}
+
+
+
+#entete td {
+    color: red;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.definition {
+
+    font-size: 12px;
+}
+
+.commentaire{
+
+
+ font-size: 12px;
+
+
+}
+
+
+
+ table {
+    font-size: 12px;
+     /*border-collapse: collapse;*/
+ }
+
+
+ .tableau {
+    text-align: center;
+    
+ }
+
+#ligne1  td:nth-child(1), #ligne2 td:nth-child(1),  #ligne3 td:nth-child(1), 
+#ligne4  td:nth-child(1), #ligne5 td:nth-child(1),  #ligne6 td:nth-child(1),
+#ligne7  td:nth-child(1), #ligne8 td:nth-child(1),  #ligne9 td:nth-child(1), 
+#ligne10 td:nth-child(1), #ligne11  td:nth-child(1),#ligne12 td:nth-child(1), 
+
+#ligne13 td:nth-child(1), #ligne14  td:nth-child(1),#ligne15 td:nth-child(1),
+#ligne16 td:nth-child(1), #ligne17  td:nth-child(1),#ligne18 td:nth-child(1), 
+#ligne19 td:nth-child(1), #ligne20 td:nth-child(1),
+#ligne21 td:nth-child(1), #ligne22  td:nth-child(1),#ligne23 td:nth-child(1),
+
+#ligne24 td:nth-child(1), #ligne25 td:nth-child(1),
+#ligne26 td:nth-child(1), #ligne27  td:nth-child(1),#ligne28  td:nth-child(1),
+#ligne29 td:nth-child(1) {
+
+ 
+    display: flex;
+    justify-content: space-between;
+
+    }
+
+#burger, #burger2, #burger3, #burger4, #burger5,
+#burger6, #burger7, #burger8, #burger9, #burger10,
+
+#burger11, #burger12, #burger13, #burger14, #burger15,
+ #burger16, #burger17, #burger18, #burger19, #burger20,
+ #burger21, #burger22, #burger23,
+ #burger24, #burger25, #burger26, #burger27, #burger28,
+ #burger29
+
+
+  {
+
+    position: relative;
+    right: 1px;
+    top: 0px;
+    transition: 0.4s;
+    
+    }
+
+
+#burger.active,#burger2.active, #burger3.active,
+#burger4.active, #burger5.active, #burger6.active, 
+#burger7.active, #burger8.active, #burger9.active, 
+#burger10.active,
+
+#burger11.active,#burger12.active, #burger13.active,
+#burger14.active, #burger15.active, #burger16.active, 
+#burger17.active, #burger18.active, #burger19.active, 
+#burger20.active, #burger21.active, #burger22.active, 
+#burger23.active, #burger24.active, #burger25.active, 
+#burger26.active, 
+#burger27.active, #burger28.active, #burger29.active   {
+    
+    transform: rotate(90deg);
+}
+
+#burger span, #burger2 span, #burger3 span, #burger4 span, 
+#burger5 span, #burger6 span, #burger7 span, #burger8 span, 
+#burger9 span, #burger10 span,
+
+#burger11 span, #burger12 span, #burger13 span, #burger14 span, 
+#burger15 span, #burger16 span, #burger17 span, #burger18 span, 
+#burger19 span, #burger20 span, #burger21 span, #burger22 span, 
+#burger23 span, #burger24 span, #burger25 span, #burger26 span, 
+#burger27 span, #burger28 span, #burger29 span   {
+
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: darkgrey;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+#burger.active span, #burger2.active span,#burger3.active span, #burger4.active span,
+#burger5.active span, #burger6.active span, #burger7.active span, #burger8.active span,
+#burger9.active span, #burger10.active span,
+
+#burger11.active span, #burger12.active span,#burger13.active span, #burger14.active span,
+#burger15.active span, #burger16.active span, #burger17.active span, #burger18.active span,
+#burger19.active span, #burger20.active span,  #burger21.active span, #burger22.active span, 
+#burger23.active span, #burger24.active span, #burger25.active span,  #burger26.active span, 
+#burger27.active span, #burger28.active span, #burger29.active span   {
+   
+    background-color: red;
+}
+
+
+#oiseaumoqueur, #aurora, #congres, #errante, 
+#fournaise, #toiledutemps, #justeatemps, #homme, 
+#cielbrulant, #barrierementale, #deesse, #formule,
+#gaia, #chants, #coeur, #darwin, #mathematiques, #ogre,
+#secret, #inconnue, #curie, #museum, #god,
+#proie, #evolution, #baton, #rama, #pere, #darkmater{
+
+	
+	position: absolute;
+    left: -300px;
+    top: 250px;
+    transition: 0.6s;
+    opacity: 0;
+    width: 250px;
+
+
+
+
+
+
+}
+
+
+#oiseaumoqueur.active, #aurora.active,#congres.active,
+#errante.active, #fournaise.active, #toiledutemps.active,
+#justeatemps.active, #homme.active, #cielbrulant.active,
+#barrierementale.active, #deesse.active, #formule.active,
+ #gaia.active, #chants.active, #coeur.active,  #darwin.active, 
+ #mathematiques.active, #ogre.active, #secret.active, #inconnue.active, 
+ #curie.active, #museum.active, #god.active,
+ #proie.active, #evolution.active, #baton.active, #rama.active, 
+ #pere.active, #darkmater.active
+  {
+
+  
+
+position:absolute;
+
+    left: 50%;
+    top: 50%;
+    
+    opacity: 1;
+   
+    transform: translate(-50%, -50%);
+
+    transition: 0.6s;
+    border-radius: 6px; 
+     
+}
+
+
+
+
+
+/*----------------------------------------------*/
+
+
+
+.kdick {
+border-radius:6px;
+}
+
+
+
+
+/*-----------------------------------------*/
+
+
+
+@media screen and (max-width: 700px)
+{
+    body
+    {
+        color: blue;
+        background-color: #F7FDD7;
+    }
+}
+@media all and (max-width: 700px)
+{	
+
+	.kdick
+	{
+	
+		width: auto;
+		height:10%;
+	}
+
+}
+@media all and (max-width: 700px)
+{	
+
+	 table
+	{
+	
+		width:70%;
+		height: 50%;
+	}
+
+}
+@media screen and (max-width: 700px)
+{
+    p
+    {
+        color: white;
+        background-color: grey;
+    }
+}

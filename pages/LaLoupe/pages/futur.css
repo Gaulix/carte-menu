@@ -1,0 +1,139 @@
+
+
+
+body {
+	margin:0;
+	padding:0;
+	background-color: #000838;
+	border: none;
+	outline: none;
+	height: 100vh;
+	
+
+}
+
+
+#parent {
+	
+	width: 90%;
+	
+	
+	z-index: 10;
+	
+	margin-left: 5%;
+	margin-right: 5%;
+	transition: 2s;
+	
+}
+
+
+
+img {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.5em;
+	font-size: 45px;
+}
+
+h2 {
+	margin-top: 300px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	color: navy;
+	letter-spacing: 0.5em;
+	font-size: 30px;
+
+}
+
+header{
+	background: url(futur.png) repeat;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-animation-name: masked-animation;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+
+
+
+@-webkit-keyframes masked-animation {
+	0% {background-position: left bottom;}
+	100% {background-position: right bottom;}
+}
+
+
+
+/*@keyframes animButton{
+	from{
+		margin-top: 0;
+		box-shadow: 0 4px 4px #333;
+	}
+	to{
+		margin-top: -6px;
+		box-shadow: 0 10px 10px #bbb;
+	}
+}
+*/
+
+
+.button {
+	margin: auto;
+	
+	
+	
+	
+}
+
+
+
+input{
+	display: block;
+	margin: auto;
+	
+	margin-top: 20px;
+	
+	width: 240px;
+	height: 40px;
+	background: #000052;
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid white;
+	border-radius: 9px;
+	cursor: pointer;
+
+	/*animation: animButton .9s alternate linear infinite;*/
+}
+a {
+	text-decoration: none;
+}
+
+input:hover{
+	background-color: #002d88;
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+
+	h1 {
+		font-size: 16px;
+	}
+input {
+	width: 100px;
+	font-size: 12px;
+	height: 30px;
+}
+	
+}
+
+
+
+
+

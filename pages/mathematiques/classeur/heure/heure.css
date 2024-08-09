@@ -1,0 +1,58 @@
+body {
+	  /***  CSS Gradient  ***/
+  /*  Chrome 1-9 and Safari 4-5.0  */
+  background-image: -webkit-gradient(linear, left top, right top,
+        color-stop( 0.0, rgb(64, 215, 84) ),
+        color-stop( 1.0, rgb(124, 229, 255) ));
+
+  /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
+  background-image: -webkit-linear-gradient(to left,
+        rgb(64, 215, 84), 
+        rgb(124, 229, 255) );
+
+  /*  Firefox 3.6+  */
+  background-image: -moz-linear-gradient(to left,
+        rgb(64, 215, 84), 
+        rgb(124, 229, 255) );
+
+  /*  IE 10+  */
+  background-image: -ms-linear-gradient(to left,
+        rgb(64, 215, 84), 
+        rgb(124, 229, 255) );
+
+  /*  Opera 11.10+  */
+  background-image: -o-linear-gradient(to left,
+        rgb(64, 215, 84), 
+        rgb(124, 229, 255) );
+
+  /*  W3C  */
+  background-image: linear-gradient(to left,
+        rgb(64, 215, 84), 
+        rgb(124, 229, 255) );
+
+
+}
+
+
+
+
+.intro {
+	width:50%;
+	height:auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.intro2 {
+	width:50%;
+	height:auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+a {
+display:block;
+text-align:center;
+margin-left: auto;
+margin-right: auto; 
+}

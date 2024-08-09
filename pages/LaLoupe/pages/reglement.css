@@ -1,0 +1,36 @@
+body
+{
+	background-color:#89bfff;
+}
+
+#box {
+	width:80%;
+	margin:auto;
+}
+img{
+	margin-top: 30px;
+	width:100%;
+	border-radius: 10px;
+}
+p
+{
+text-align: center;
+}
+
+@media all and (max-width: 768px)
+{
+  body
+    {
+        
+        background-color: pink;
+        
+        
+     }
+
+
+img {
+	width: 80%;
+	height:auto;
+	}
+
+}

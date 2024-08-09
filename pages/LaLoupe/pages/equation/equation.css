@@ -1,0 +1,56 @@
+body {
+	background-color:black;
+}
+
+.titre {
+	color:aqua;
+	font-size: 6em;
+	margin-top: 3px;
+}
+
+p {
+	text-align: center;
+}
+
+.montage {
+	width: 60%;
+	margin-top: 5px;
+	
+}
+
+
+
+.citation
+{
+	text-align: center;
+	color:red;
+}
+
+.auteur {
+
+	color:aqua;
+}
+
+
+
+a {
+
+	color:white;
+
+	
+}
+
+
+@media screen and (max-width:600px) {
+	.titre {
+	left:50px;
+	font-size: 3em;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.citation{
+
+	font-size: 70%;
+	}
+}

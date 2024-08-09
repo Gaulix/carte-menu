@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+      height: 100vh;
+   
+   background-image: url(../images/univers147.jpg);
+
+    height: 100vh;
+    font-family: arial;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#site {
+	margin-top: 5px;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.boite1{
+
+	
+	width:400px;
+	
+}
+
+.texte1 {
+	
+	width:350px;
+	padding:5px;
+	margin-top: 10px;
+	padding:10px;
+	
+	
+	}
+
+
+
+.legende1 {
+	text-align: center;
+	color:white;
+}
+
+.legende2 {
+text-align: center;
+	color:white;
+	font-size: 12px;
+}
+
+.boite2{
+
+	
+	width:400px;
+	
+
+
+}
+.boite1 img {
+	width:250px;
+	margin-left: 75px;
+	
+}
+
+.boite2 img {
+	width:250px;
+	margin-left: 75px;
+}
+
+
+
+.texte2 {
+	
+	width:350px;
+	padding:5px;
+	margin-top: 10px;
+	padding:10px;
+	
+	
+	}
+
+
+p {
+color:red;
+	text-align: justify;
+}
+
+a{
+	color:white;
+	text-align: center;
+}
+
+.lien {
+	text-align: center;
+}
+
+

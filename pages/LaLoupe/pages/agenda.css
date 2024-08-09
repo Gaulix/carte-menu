@@ -1,0 +1,76 @@
+p
+{
+    width:50%; /* On a indiqué une largeur (obligatoire) */
+    margin:auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid black;
+    text-align:center
+    ;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+body 
+
+{
+		 background-image: url(../images/flower32049661920.jpg);
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+p
+
+{
+    border-radius: 20px;
+    opacity: 0.4;
+    transition: 0.3s ease-out;
+   
+}
+p:hover {
+    opacity: 1 ;
+}
+h1
+{
+text-align: center;
+}
+
+.last
+{
+text-align:justify;
+}
+
+p:first-child{
+    margin-top: 40px;
+}
+
+.galerie {
+    transition: 0.8s ease-out;
+}
+a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+
+    color: rgb(116, 97, 209);
+}
+.lien{
+    
+    
+    background-color: transparent;
+    border: none;
+     opacity: 1;
+
+
+}
+.lien:hover a{
+    color: whitesmoke;
+    
+}
+
+

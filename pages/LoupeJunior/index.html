@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="loupe.png">
+    <title>La loupe-Junior</title>
+    <link rel="stylesheet" href="style.css">
+    
+<link rel="stylesheet" href="fontawesome/css/all.css">
+ <script src="robot.js"></script>
+</head>
+<body>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="lettering.js"></script>
+
+
+
+   
+
+    <header>
+    
+        <img class="loupe" src="images/loupe.png" alt="logo loupe">
+        <img class="robot" src="images/robotrose.png" alt="robot">
+
+
+
+
+        <h2>La Loupe - Junior.</h2>
+         <script>
+        $(function() {
+            $('h2').lettering(); // separer les lettres par des span
+            // animer chacune des lettres
+            anime(
+              {
+                targets : 'h2 span',
+                rotateY : [-90, 0],
+                duration : 2000,
+                delay : function(e, i) {
+                    return 180 * i;
+                }
+              }
+            );
+        });
+    </script>
+
+
+
+
+       
+        <img class="papillon" src="images/papillon.png" alt="papillon">
+        <img class="globe" src="images/globe.png" alt="navette">
+
+    
+    
+    </header>
+
+
+<main>
+
+   <div>
+             <p class="titrelivres">livres de sciences</p>
+                <p><a  href="pages/livres.html"><img class="livres" src="images/Mon-encyclopedie-des-sciences.png" alt="livres"></a></p>
+
+      </div>
+
+      <div>
+             <p class="titrerevues">revues de sciences</p>
+                
+                <p><a  href="pages/revues.html"><img class="revues" src="images/decouverte.jpg" alt="revues"></a></p>
+
+      </div>
+
+
+
+       <div>
+            <p class="titreTV">sciences et TV</p>
+
+                 <p><a  href="pages/television.html"><img class="TV"     src="images/tvbis.png" alt="TV"></a></p>
+
+      
+
+
+       </div>
+
+
+
+       
+
+
+        <div>
+             <p class="titreQuizz">jeux</p>
+                <p><a  href="pages/Quiz.html"><img class="jeux" src="images/quiz.png" alt="jeux"></a></p>
+
+      </div>
+
+
+<div>
+             <p class="titreInfos">info-junior</p>
+                <p><a  href="https://www.infojunior.com/archscience.html"><img class="nord" src="images/infojunior.png" alt="nord"></a></p>
+
+      </div>
+ 
+
+ <div>
+             <p class="titreNord">sciences en Nord</p>
+                <p><a  href="pages/nord.html"><img class="nord" src="images/sciencesennord.jpg" alt="nord"></a></p>
+
+      </div>
+
+   
+
+
+
+ <div>
+             <p class="titreBD">sciences et BD</p>
+                <p><a  href="pages/BD.html"><img class="BD" src="images/BD.png" alt="BD"></a></p>
+
+      </div>
+
+
+
+
+<div>
+             
+             <p class="jeuxenligne">jeux en ligne</p>
+                <p><a  href="https://www.logicieleducatif.fr/eveil/sciences/sciences.php"><img class="jeuxsurnet" src="images/jeuxenligne.png" alt="jeux"></a></p>
+
+      </div>
+                    
+
+<SCRIPT type="text/javascript" SRC="https://www.toutimages.com/calendriers_js/cal_006.js"></SCRIPT>
+
+
+
+
+</main>
+
+
+
+
+<footer>
+        
+    <p><img class="eprouvette" src="images/clipart-chemical-science-experiment-6a6e.png" alt="éprouvette"></p>
+
+<p><a class="compteur" href="http://www.mon-compteur.fr"><img alt="compteur" src="http://www.mon-compteur.fr/html_c02genv2-75682-5" border="0"></a></p>
+
+     <p class="warning">&copy;Reproduction interdite - Tous droits réservés 2023, France
+
+           <i class="fa-solid fa-user-pen"></i> <a href="mailto:sdelattre1@orange.fr">S. Delattre</a></p>
+
+             <p class="resto"><a href="https://www.documentsressources.fr/" onclick="beep()">Menu à la carte</a></p>
+  
+
+
+
+   </footer>  
+   
+    <div class="anime"><p><img class="parachute" src="images/parachute.png" alt="parachute"></p>
+    <p><img class="robotanime2" src="images/99687905.gif" alt="robot"></p>
+</div>
+   
+</body>
+</html>

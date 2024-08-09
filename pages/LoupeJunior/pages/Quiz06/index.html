@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz (sciences-junior)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>
+      <span>Quiz:</span>
+      l'air. ☑️
+    </h1>
+
+    <div class="global-container">
+
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>L'air possède ...</h4>
+
+          <div>
+            <input type="radio" id="Clovis" name="q1" value="a" checked />
+            <label for="Clovis">une couleur</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Lincoln" name="q1" value="b" />
+            <label for="Lincoln">un poids</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bonaparte" name="q1" value="c" />
+            <label for="Bonaparte">une odeur</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>L'air est un... </h4>
+          <div>
+            <input type="radio" id="date1" name="q2" value="a" checked />
+            <label for="date1">liquide</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date2" name="q2" value="b" />
+            <label for="date2">solide</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date3" name="q2" value="c" />
+            <label for="date3">gaz</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>On peut rendre sa présence visible... </h4>
+          <div>
+            <input type="radio" id="date4" name="q3" value="a" checked />
+            <label for="date4">dans le sable</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date5" name="q3" value="b" />
+            <label for="date5">dans l'eau</label>
+          </div>
+
+          <div>
+            <input type="radio" id="date6" name="q3" value="c" />
+            <label for="date6">dans la pierre</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>On peut réduire son volume...</h4>
+
+          <div>
+            <input type="radio" id="Ljubljana" name="q4" value="a" checked />
+            <label for="Ljubljana">l'air est compressible</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Belgrade" name="q4" value="b" />
+            <label for="Belgrade">l'air est rare</label>
+          </div>
+
+          <div>
+            <input type="radio" id="Bratislava" name="q4" value="c" />
+            <label for="Bratislava">l'air est bleu</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>La pression de l'air se mesure avec...</h4>
+          <div>
+            <input type="radio" id="m1" name="q5" value="a" checked />
+            <label for="m1">un thermomètre</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m2" name="q5" value="b" />
+            <label for="m2">un hygromètre</label>
+          </div>
+
+          <div>
+            <input type="radio" id="m3" name="q5" value="c" />
+            <label for="m3">un baromètre</label>
+          </div>
+        </div>
+
+        <button type="submit">VALIDER ✔️</button>
+      </form>
+
+      <div class="results">
+        <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats.</span></h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+        <p class="lien"><a href="../Quiz.html">retour</a></p>
+      </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

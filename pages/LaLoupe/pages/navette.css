@@ -1,0 +1,43 @@
+body {
+	 display: flex;
+   
+    background-color: teal;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+
+}
+
+.image {
+  width: 80%;
+}
+
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.titre{
+    color: white;
+   font-size:2vw;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+  .retour a {
+    text-decoration: none;
+    color: aqua;
+    font-size:2vw;
+    transition: 1s;
+
+}
+
+.retour a:hover {
+  background-image: url(mini_nature018.gif);
+  font-size: 2.6vw;
+   background-repeat: no-repeat;
+  color: red;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}

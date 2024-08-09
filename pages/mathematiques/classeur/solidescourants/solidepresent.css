@@ -1,0 +1,27 @@
+p{
+color:blue;
+font-size: 1.3em;
+
+  background-color: #98da8d;
+}
+img {
+width: 80%;
+}
+@media all and (min-width: 1400px)
+{
+         
+p {
+color:red;
+font-size: 1.6em;
+}
+
+a {
+font-size:1.1em;
+
+}
+
+
+
+
+
+}

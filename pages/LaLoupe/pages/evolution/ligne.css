@@ -1,0 +1,32 @@
+.homo{
+	
+	width:50%;
+	margin:auto;
+	
+}
+
+
+h1 {
+
+	color: red;
+	text-align: center;
+	
+}
+
+
+.commentaire{
+	text-align: center;
+	color:blue;
+}
+
+.buisson {
+
+	width:70%;
+	margin:auto;
+	
+}
+
+.buisson img {
+	border-radius: 6px;
+
+}

@@ -1,0 +1,32 @@
+
+body {
+  margin:0px;
+  padding:0px;
+  background-color: navy;
+}
+
+p {
+
+ margin-top:100px;
+  font-size: 4em;
+  text-align: center;
+  color:white;
+}
+
+.diminutif {
+	font-size: 1.5em;
+  text-align: center;
+  color:white;
+  font-style: italic;
+}
+
+
+.retour {
+
+	font-size: 2em;
+  text-align: center;
+}
+
+a {
+	color:red;
+}

@@ -1,0 +1,40 @@
+
+body {
+  margin:0px;
+  padding:0px;
+  background-color: #feffec;
+}
+
+.reponse {
+
+padding-top: 0px;
+margin-top: 20px;
+	font-size: 3em;
+	color:navy;
+	text-align: center;
+}
+
+.soustitre {
+	text-align: center;
+}
+.retour {
+
+	font-size: 1em;
+  text-align: center;
+}
+
+a {
+	color:red;
+}
+
+.image {
+	
+	text-align: center;
+
+
+}
+
+.explication {
+	text-align: center;
+}
+

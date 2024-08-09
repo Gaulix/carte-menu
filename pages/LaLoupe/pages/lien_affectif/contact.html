@@ -1,0 +1,54 @@
+            <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+	
+    
+    <div id="conteneur">
+        <H1>me contacter</H1>
+    	<form
+  action="https://formspree.io/f/meqnnwnw"
+  method="POST">
+
+        	<p>
+            	<label for="nom">Nom</label> 
+                <input type="text" name="nom" id="nom" placeholder="Votre nom" />	
+            </p>
+            
+            <p>
+                <label for="prenom">Prénom<span class="required">*</span></label>
+                <input type="text" name="prenom" id="prenom" required="required"  placeholder="Votre prénom" />
+            </p>
+            
+            <p>
+            	<label for="email">Email<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required="required" placeholder="Votre email" />
+            </p>
+            
+           
+            
+            <p>
+            	<label for="message">Message<span class="required">*</span></label>
+                <textarea id="message" name="message" required="required" placeholder="Ecrivez votre message"></textarea>
+            </p>
+            
+            <p class="indication">Tous les champs avec une <span class="required">*</span> sont obligatoires</p>
+            
+            <p>
+            	<input type="submit" value="Envoyez" />
+            </p>
+
+        </form>
+    
+    </div>
+
+
+</body>
+</html>

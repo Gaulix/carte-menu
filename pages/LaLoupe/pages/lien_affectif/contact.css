@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	background-image: url(fdecran.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'alamainregular';
+    src: url('fonts/alamain1-webfont.woff2') format('woff2'),
+         url('fonts/alamain1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#conteneur{
+	margin: auto;
+	width:400px;
+	padding:20px;
+	
+}
+h1 {
+	color: whitesmoke;
+	margin: 0;
+	text-align: center;
+	font-family:'alamainregular';
+}
+
+/*couleur pour les champs obligatoires*/
+input:required, textarea:required{
+	background-color:#cbcacb;
+	color:#fff;
+}
+
+/*input et textarea*/
+input:not([type="submit"]), textarea{
+	display:block;
+	width:380px;
+	padding: 4px 8px;
+	border:1px dashed #DBDBDB;
+	color:#111;
+	font-size:14px;
+/*border radius*/
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+/*transitions*/
+	transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-webkit-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-moz-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-o-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+}
+
+input:not([type="submit"]):focus, textarea:focus{
+	background:#F7F7F7;
+	border:dashed 1px #969696;
+	color:#000;
+}
+
+input:not([type="submit"]){
+	height:20px;
+}
+
+/*placeholder*/
+input:-moz-placeholder, textarea:-moz-placeholder{
+	color:#848484;
+	font-style:italic;
+}
+
+textarea{
+	min-height:70px;
+	resize:vertical;
+	border-radius: 7px;
+
+}
+
+#message {
+	background-color: #ffa89d;
+}
+label{
+	color:#7F7E7E;
+	transition:color 1s ease;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+}
+
+label:hover{
+	color:#FFF;
+}
+
+p{
+	margin-bottom:20px;
+}
+
+.indication{
+	color:#878787;
+	font-size:12px;
+	font-style:italic;
+	text-align:right;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.required{
+	color:#FF0380;
+}
+
+/*bouton*/
+input[type=submit]{
+	margin-left:235px;
+	cursor:pointer;
+	color:#767676;
+	font-size:18px;
+	padding:10px 4px;
+	border:1px solid #E0E0E0;
+	background:#F8F8F8;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+}
+
+input[type=submit]:hover{
+	color:#ff0380;
+	border-color:#CECECE;
+	background:aqua;
+	box-shadow:0px 1px 1px #fff inset,
+				0 0 0px 5px #E0E0E0;
+	-webkit-box-shadow:0px 1px 1px #fff inset,
+				0 0 0px 5px #E0E0E0;
+	-moz-box-shadow:0px 1px 1px #fff inset,
+				0 0 0px 5px #E0E0E0;
+}
+
+
+
+@media screen and (max-width: 499px) {
+#conteneur {
+	width: 90%;
+}
+
+input:not([type="submit"]), textarea{
+	display:block;
+	width:300px;
+	padding: 4px 8px;
+	border:1px dashed #DBDBDB;
+	color:#111;
+	font-size:14px;
+/*border radius*/
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+/*transitions*/
+	transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-webkit-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-moz-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+	-o-transition:background 0.2s linear,
+				box-shadow 0.6s linear;
+}
+.indication {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 18px;
+}
+}

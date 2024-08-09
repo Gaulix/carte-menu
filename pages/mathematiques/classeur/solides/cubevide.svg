@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="307.5" height="211.5" viewBox="0, 0, 307.5, 211.5">
+  <g id="Calque_1" transform="translate(-342, -187)">
+    <g>
+      <g>
+        <path d="M347.5,256.5 L536.5,256.5 L536.5,393.5 L347.5,393.5 L347.5,256.5 z" fill="#FFFFFF"/>
+        <path d="M347.5,256.5 L536.5,256.5 L536.5,393.5 L347.5,393.5 L347.5,256.5 z" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      </g>
+      <path d="M347.5,256.5 L454.5,193.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      <path d="M536.5,256.5 L643.5,193.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      <path d="M536.5,394 L643.5,330.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      <path d="M348.5,392.5 L455.5,329.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3" stroke-dasharray="9,6"/>
+      <path d="M453.5,193.5 L645,193.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      <path d="M643.5,192.5 L643.5,331.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3"/>
+      <path d="M454.5,193.833 L454.5,330.833" fill-opacity="0" stroke="#4C13C1" stroke-width="3" stroke-dasharray="9,6"/>
+      <path d="M643.833,330.5 L454.833,330.5" fill-opacity="0" stroke="#4C13C1" stroke-width="3" stroke-dasharray="9,6"/>
+    </g>
+  </g>
+</svg>

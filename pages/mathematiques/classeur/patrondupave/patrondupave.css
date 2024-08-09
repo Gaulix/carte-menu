@@ -1,0 +1,48 @@
+p {
+	font-size:1.3em;
+	color:blue;
+	background-color: #98da8d;
+}
+img {
+width:46%;
+height:auto;
+margin-left: 150px;
+
+
+	}
+	
+.gif {
+	
+	width:20%;
+	margin-left: auto;
+
+	padding-left:50px;
+	margin-bottom:50px;
+	
+	}	
+
+	a {
+		display:block;
+	font-size:1.1em;
+	text-align:center;
+	}
+
+@media all and (min-width: 1400px)
+{
+          
+   
+
+
+p {
+	font-size:2em;
+	color:red;
+}
+
+a {
+font-size:1.3em;
+text-align:center;
+}
+
+
+
+}

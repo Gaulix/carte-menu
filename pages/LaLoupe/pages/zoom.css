@@ -1,0 +1,54 @@
+body {
+	 display: flex;
+   
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  height:100vh;
+  background-color: #C00;
+
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.box{
+  width: 70%;
+}
+
+img {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+
+
+  .retour a {
+    text-decoration: none;
+    color: navy;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 700px) {
+
+.titre {
+  font-size: 8px;
+ margin-top: 30px;
+
+}
+img {
+  margin-top: 30px;
+}
+
+
+.retour  {
+     padding-top: 30px;
+}
+
+  
+}

@@ -1,0 +1,55 @@
+.titre {
+color:blue;
+font-size: 1.3em;
+text-align:center;
+  background-color: #98da8d;
+}
+
+.definition {
+	text-align:center;
+	font-style:italic;
+}
+
+
+img {
+
+width: 90%;
+display:block;
+margin-left: auto;
+margin-right: auto; 
+}
+.citation {
+	
+	text-align:center;
+}
+a {
+display:block;
+text-align:center;
+margin-left: auto;
+margin-right: auto; 
+}
+
+
+@media all and (min-width: 1400px)
+{
+  body
+    {
+        
+        background-color:#FFFFE0;
+        
+        
+     }
+	 
+.titre {
+	font-size:2em;
+	color:red;
+}
+
+a {
+font-size:1.3em;
+
+}
+
+
+
+}

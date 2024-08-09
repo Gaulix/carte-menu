@@ -1,0 +1,46 @@
+
+body {
+  margin:0px;
+  padding:0px;
+  background-color: #feffec;
+}
+
+.reponse {
+
+padding-top: 0px;
+margin-top: 20px;
+	font-size: 2em;
+	color:navy;
+	text-align: center;
+}
+
+.soustitre {
+	text-align: center;
+	font-size: 1em;
+}
+.retour {
+
+	font-size: 1em;
+  text-align: center;
+}
+
+a {
+	color:red;
+}
+
+.image {
+	
+	text-align: center;
+
+
+}
+
+.explication {
+	text-align: center;
+	font-size: 1em;
+}
+.exemple {
+
+	font-style: italic;
+	text-align: center;
+}

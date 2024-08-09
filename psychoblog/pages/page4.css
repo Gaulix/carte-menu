@@ -1,0 +1,125 @@
+
+body {
+    font-family: avenir,arial, helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background-color:#FECC66;
+color:black;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+   
+    background: lightblue;
+}
+
+
+header {
+
+	background-color: #5ba1d3;
+	color: antiquewhite;
+	height: auto;
+}
+h2 {
+
+	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	
+}
+
+h3 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h4 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+p {
+	
+	font-size: 16px;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
+
+
+.livre4 {
+	margin-top: 42px;
+	margin-left: 50px;
+	float: left;
+	
+	
+	width: 200px;
+	margin-right: 20px;
+	
+	border-radius: 7px;
+	
+	
+}
+
+
+footer {
+	height: 40px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color:#d07e00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	}
+
+footer a {
+	color: antiquewhite;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+ 
+    
+header {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.livre4 {
+	width: 20%;
+	margin-left: 15px;
+}
+
+p {
+    font-size: 10px;
+    margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+footer {
+    font-size: 9px;
+    
+}
+}

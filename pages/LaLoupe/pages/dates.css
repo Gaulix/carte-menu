@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 11px;
+    height:100vh;
+    margin: 0;
+     background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+ table{
+   
+    width:800px;
+    border-collapse: collapse;
+    transition: width 2s;
+   margin-top: 10px;
+   border:1px solid black;
+  
+   
+ }
+   
+  
+    
+ 
+
+th, td {
+   
+    padding: 10px;
+
+    
+}
+th {
+    background-color: #8e44ad;
+    color: #ecf0f1;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+
+ td {
+    border: 1px solid #000;
+    padding: 7px;
+    /*background-color: #ecf0f1;*/
+    background-color: white;
+    
+}
+
+
+td:last-child {
+    text-align: center;
+
+}
+tr:nth-child(76) td {
+    background-color: pink;
+}
+
+tr:nth-child(77) td {
+    background-color: rgb(217, 198, 201);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+tr:nth-child(78) td:nth-child(1) {
+    border-right: hidden;
+
+}
+
+
+tr:nth-child(78) td:nth-child(3) {
+    background-color: #8e44ad;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+table tr:hover td{
+
+    background: aqua;
+}
+tr:nth-child(78) td:nth-child(3) a {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+.top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #8e44ad;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border-radius: 50px;
+    transition: 0.8s;
+    opacity: 0;
+    border: 1px solid whitesmoke;
+}
+.top a {
+    color: #fff;
+    text-decoration: none;
+}
+.top.voirBt {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+ 
+    body {
+         
+        font-size: 10px;
+        
+       
+       
+    
+    }
+    table {
+        width: 90%;
+       
+    }
+    thead {
+        display: none;
+    }
+   
+
+
+    
+    tr, td {
+        display: block;
+        text-align: left;
+        padding: 0;
+    }
+       
+    td:last-child {
+        text-align: left;
+    }
+    tr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    [data-head]::before {
+        content: attr(data-head);
+        background-color: #8e44ad;
+        color: #ecf0f1;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        width: 20%;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        margin-right: 10px;
+    }
+}

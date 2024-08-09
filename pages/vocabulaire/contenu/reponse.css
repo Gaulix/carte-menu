@@ -1,0 +1,38 @@
+
+body {
+  margin:0px;
+  padding:0px;
+  background-color: pink;
+}
+
+.reponse {
+
+
+	font-size: 2em;
+	color:navy;
+	text-align: center;
+}
+
+.retour {
+
+	font-size: 1em;
+  text-align: center;
+}
+
+a {
+	color:red;
+}
+
+.image {
+	
+	text-align: center;
+
+
+}
+
+.explication {
+	text-align: center;
+}
+img {
+	width: 40%;
+}

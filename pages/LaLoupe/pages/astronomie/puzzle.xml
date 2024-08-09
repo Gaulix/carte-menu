@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<CWForgeLiveDoc version="5.5.11" suggestedCWFLVersion="1" puzzleType="Crossword" gridWordCount="12" license="eia">
+<Title tNum="0" align="center">
+<Text>grille 1: astronomie</Text>
+<Style font="Times New Roman" size="14" color="0x000000" bold="" italic="" underline=""/>
+</Title>
+<Locale>
+<Alphabet>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â Ç È Ê Ë É Ï Î Ô Œ Ù Û</Alphabet>
+<AcrossText>Horizontalement</AcrossText>
+<DownText>Verticalement</DownText>
+<WordSearchLabelText></WordSearchLabelText>
+<AboutCWFLiveText>Powered by Crossword Forge...</AboutCWFLiveText>
+<CreateYourOwnPuzzleText>Want to make crossword puzzles?</CreateYourOwnPuzzleText>
+<InputAlphabetText>Input Alphabet</InputAlphabetText>
+<GameText>Game</GameText>
+<RestartText>Restart</RestartText>
+<PrintText>Print...</PrintText>
+<HintText>Hint</HintText>
+<CheckText>Check</CheckText>
+<ShowCurrentLetterText>Show Current Letter</ShowCurrentLetterText>
+<ShowCurrentWordText>Show Current Word</ShowCurrentWordText>
+<ShowEveryWordText>Show Every Word</ShowEveryWordText>
+<CheckCurrentLetterText>Check Current Letter</CheckCurrentLetterText>
+<CheckCurrentWordText>Check Current Word</CheckCurrentWordText>
+<CheckEveryWordText>Check Every Word</CheckEveryWordText>
+<RemainingText>Remaining</RemainingText>
+<CongratulationsText>Congratulations.
+You've Won!</CongratulationsText>
+</Locale>
+<Name>astronomie</Name>
+<Settings>
+<ClueFont>Times New Roman</ClueFont>
+<AnswerFont>Helvetica</AnswerFont>
+<ClueColor>0x000000</ClueColor>
+<AnswerColor>0x000000</AnswerColor>
+<ClueSize>14</ClueSize>
+<AnswerSize>12</AnswerSize>
+<HintLetterLimit>-1</HintLetterLimit>
+<HintAnswerLimit>-1</HintAnswerLimit>
+<HintAllLimit>-1</HintAllLimit>
+<CheckLetterLimit>-1</CheckLetterLimit>
+<CheckAnswerLimit>-1</CheckAnswerLimit>
+<CheckAllLimit>-1</CheckAllLimit>
+<HideClues></HideClues>
+<UseClueAccordion>1</UseClueAccordion>
+<ClueListPosition>bottom</ClueListPosition>
+<HypeLevel>2</HypeLevel>
+<PageColor>0xFFFFFF</PageColor>
+<ControlColor>0x6FA8FF</ControlColor>
+</Settings>
+<Clues>
+<Pair cNum="0" direction="1" dNum="1">
+<ClueText>La voie lactée est la nôtre.</ClueText>
+<AnswerPos>
+<El x="6" y="1"/>
+<El x="6" y="2"/>
+<El x="6" y="3"/>
+<El x="6" y="4"/>
+<El x="6" y="5"/>
+<El x="6" y="6"/>
+<El x="6" y="7"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="1" direction="1" dNum="2">
+<ClueText>Possède des anneaux.</ClueText>
+<AnswerPos>
+<El x="2" y="2"/>
+<El x="2" y="3"/>
+<El x="2" y="4"/>
+<El x="2" y="5"/>
+<El x="2" y="6"/>
+<El x="2" y="7"/>
+<El x="2" y="8"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="2" direction="1" dNum="3">
+<ClueText>Astre du couchant.</ClueText>
+<AnswerPos>
+<El x="9" y="2"/>
+<El x="9" y="3"/>
+<El x="9" y="4"/>
+<El x="9" y="5"/>
+<El x="9" y="6"/>
+<El x="9" y="7"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="3" direction="1" dNum="4">
+<ClueText>Enorme planète</ClueText>
+<AnswerPos>
+<El x="12" y="2"/>
+<El x="12" y="3"/>
+<El x="12" y="4"/>
+<El x="12" y="5"/>
+<El x="12" y="6"/>
+<El x="12" y="7"/>
+<El x="12" y="8"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="4" direction="0" dNum="5">
+<ClueText>Ancienne planète.</ClueText>
+<AnswerPos>
+<El x="5" y="3"/>
+<El x="6" y="3"/>
+<El x="7" y="3"/>
+<El x="8" y="3"/>
+<El x="9" y="3"/>
+<El x="10" y="3"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="5" direction="1" dNum="6">
+<ClueText>Dessin créé par des étoiles.</ClueText>
+<AnswerPos>
+<El x="4" y="4"/>
+<El x="4" y="5"/>
+<El x="4" y="6"/>
+<El x="4" y="7"/>
+<El x="4" y="8"/>
+<El x="4" y="9"/>
+<El x="4" y="10"/>
+<El x="4" y="11"/>
+<El x="4" y="12"/>
+<El x="4" y="13"/>
+<El x="4" y="14"/>
+<El x="4" y="15"/>
+<El x="4" y="16"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="6" direction="0" dNum="7">
+<ClueText>Contraire de jour.</ClueText>
+<AnswerPos>
+<El x="4" y="6"/>
+<El x="5" y="6"/>
+<El x="6" y="6"/>
+<El x="7" y="6"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="7" direction="0" dNum="8">
+<ClueText>Etoile du berger.</ClueText>
+<AnswerPos>
+<El x="0" y="7"/>
+<El x="1" y="7"/>
+<El x="2" y="7"/>
+<El x="3" y="7"/>
+<El x="4" y="7"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="8" direction="0" dNum="9">
+<ClueText>Satellite de la Terre</ClueText>
+<AnswerPos>
+<El x="9" y="7"/>
+<El x="10" y="7"/>
+<El x="11" y="7"/>
+<El x="12" y="7"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="9" direction="0" dNum="10">
+<ClueText>Le soleil en est une.</ClueText>
+<AnswerPos>
+<El x="0" y="11"/>
+<El x="1" y="11"/>
+<El x="2" y="11"/>
+<El x="3" y="11"/>
+<El x="4" y="11"/>
+<El x="5" y="11"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="10" direction="1" dNum="11">
+<ClueText>La planète rouge.</ClueText>
+<AnswerPos>
+<El x="9" y="13"/>
+<El x="9" y="14"/>
+<El x="9" y="15"/>
+<El x="9" y="16"/>
+</AnswerPos>
+</Pair>
+<Pair cNum="11" direction="0" dNum="12">
+<ClueText>Mince couche d'air qui enveloppe la terre.</ClueText>
+<AnswerPos>
+<El x="1" y="15"/>
+<El x="2" y="15"/>
+<El x="3" y="15"/>
+<El x="4" y="15"/>
+<El x="5" y="15"/>
+<El x="6" y="15"/>
+<El x="7" y="15"/>
+<El x="8" y="15"/>
+<El x="9" y="15"/>
+<El x="10" y="15"/>
+</AnswerPos>
+</Pair>
+</Clues>
+<Grid xSize="13" ySize="17" blockSize="22" backdropType="2" backdropColor="0x000000" backdropFileURL="astronomie_backdrop.jpg" backdropFileWidth="-1" backdropFileHeight="-1" casePolicy="0">
+<El x="6" y="1" ch="G" dNum="1">
+<cNum>0</cNum>
+</El>
+<El x="2" y="2" ch="S" dNum="2">
+<cNum>1</cNum>
+</El>
+<El x="6" y="2" ch="A">
+<cNum>0</cNum>
+</El>
+<El x="9" y="2" ch="S" dNum="3">
+<cNum>2</cNum>
+</El>
+<El x="12" y="2" ch="J" dNum="4">
+<cNum>3</cNum>
+</El>
+<El x="2" y="3" ch="A">
+<cNum>1</cNum>
+</El>
+<El x="5" y="3" ch="P" dNum="5">
+<cNum>4</cNum>
+</El>
+<El x="6" y="3" ch="L">
+<cNum>4</cNum>
+<cNum>0</cNum>
+</El>
+<El x="7" y="3" ch="U">
+<cNum>4</cNum>
+</El>
+<El x="8" y="3" ch="T">
+<cNum>4</cNum>
+</El>
+<El x="9" y="3" ch="O">
+<cNum>4</cNum>
+<cNum>2</cNum>
+</El>
+<El x="10" y="3" ch="N">
+<cNum>4</cNum>
+</El>
+<El x="12" y="3" ch="U">
+<cNum>3</cNum>
+</El>
+<El x="2" y="4" ch="T">
+<cNum>1</cNum>
+</El>
+<El x="4" y="4" ch="C" dNum="6">
+<cNum>5</cNum>
+</El>
+<El x="6" y="4" ch="A">
+<cNum>0</cNum>
+</El>
+<El x="9" y="4" ch="L">
+<cNum>2</cNum>
+</El>
+<El x="12" y="4" ch="P">
+<cNum>3</cNum>
+</El>
+<El x="2" y="5" ch="U">
+<cNum>1</cNum>
+</El>
+<El x="4" y="5" ch="O">
+<cNum>5</cNum>
+</El>
+<El x="6" y="5" ch="X">
+<cNum>0</cNum>
+</El>
+<El x="9" y="5" ch="E">
+<cNum>2</cNum>
+</El>
+<El x="12" y="5" ch="I">
+<cNum>3</cNum>
+</El>
+<El x="2" y="6" ch="R">
+<cNum>1</cNum>
+</El>
+<El x="4" y="6" ch="N" dNum="7">
+<cNum>6</cNum>
+<cNum>5</cNum>
+</El>
+<El x="5" y="6" ch="U">
+<cNum>6</cNum>
+</El>
+<El x="6" y="6" ch="I">
+<cNum>6</cNum>
+<cNum>0</cNum>
+</El>
+<El x="7" y="6" ch="T">
+<cNum>6</cNum>
+</El>
+<El x="9" y="6" ch="I">
+<cNum>2</cNum>
+</El>
+<El x="12" y="6" ch="T">
+<cNum>3</cNum>
+</El>
+<El x="0" y="7" ch="V" dNum="8">
+<cNum>7</cNum>
+</El>
+<El x="1" y="7" ch="É">
+<cNum>7</cNum>
+</El>
+<El x="2" y="7" ch="N">
+<cNum>7</cNum>
+<cNum>1</cNum>
+</El>
+<El x="3" y="7" ch="U">
+<cNum>7</cNum>
+</El>
+<El x="4" y="7" ch="S">
+<cNum>7</cNum>
+<cNum>5</cNum>
+</El>
+<El x="6" y="7" ch="E">
+<cNum>0</cNum>
+</El>
+<El x="9" y="7" ch="L" dNum="9">
+<cNum>2</cNum>
+<cNum>8</cNum>
+</El>
+<El x="10" y="7" ch="U">
+<cNum>8</cNum>
+</El>
+<El x="11" y="7" ch="N">
+<cNum>8</cNum>
+</El>
+<El x="12" y="7" ch="E">
+<cNum>8</cNum>
+<cNum>3</cNum>
+</El>
+<El x="2" y="8" ch="E">
+<cNum>1</cNum>
+</El>
+<El x="4" y="8" ch="T">
+<cNum>5</cNum>
+</El>
+<El x="12" y="8" ch="R">
+<cNum>3</cNum>
+</El>
+<El x="4" y="9" ch="E">
+<cNum>5</cNum>
+</El>
+<El x="4" y="10" ch="L">
+<cNum>5</cNum>
+</El>
+<El x="0" y="11" ch="É" dNum="10">
+<cNum>9</cNum>
+</El>
+<El x="1" y="11" ch="T">
+<cNum>9</cNum>
+</El>
+<El x="2" y="11" ch="O">
+<cNum>9</cNum>
+</El>
+<El x="3" y="11" ch="I">
+<cNum>9</cNum>
+</El>
+<El x="4" y="11" ch="L">
+<cNum>9</cNum>
+<cNum>5</cNum>
+</El>
+<El x="5" y="11" ch="E">
+<cNum>9</cNum>
+</El>
+<El x="4" y="12" ch="A">
+<cNum>5</cNum>
+</El>
+<El x="4" y="13" ch="T">
+<cNum>5</cNum>
+</El>
+<El x="9" y="13" ch="M" dNum="11">
+<cNum>10</cNum>
+</El>
+<El x="4" y="14" ch="I">
+<cNum>5</cNum>
+</El>
+<El x="9" y="14" ch="A">
+<cNum>10</cNum>
+</El>
+<El x="1" y="15" ch="A" dNum="12">
+<cNum>11</cNum>
+</El>
+<El x="2" y="15" ch="T">
+<cNum>11</cNum>
+</El>
+<El x="3" y="15" ch="M">
+<cNum>11</cNum>
+</El>
+<El x="4" y="15" ch="O">
+<cNum>5</cNum>
+<cNum>11</cNum>
+</El>
+<El x="5" y="15" ch="S">
+<cNum>11</cNum>
+</El>
+<El x="6" y="15" ch="P">
+<cNum>11</cNum>
+</El>
+<El x="7" y="15" ch="H">
+<cNum>11</cNum>
+</El>
+<El x="8" y="15" ch="È">
+<cNum>11</cNum>
+</El>
+<El x="9" y="15" ch="R">
+<cNum>10</cNum>
+<cNum>11</cNum>
+</El>
+<El x="10" y="15" ch="E">
+<cNum>11</cNum>
+</El>
+<El x="4" y="16" ch="N">
+<cNum>5</cNum>
+</El>
+<El x="9" y="16" ch="S">
+<cNum>10</cNum>
+</El>
+</Grid>
+</CWForgeLiveDoc>

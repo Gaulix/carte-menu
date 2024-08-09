@@ -1,0 +1,295 @@
+
+body {
+    background: url(images/fondscience.jpeg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  height: 100vh;
+  
+}
+header {
+    height: 7vh;
+}
+
+/*.oblique {
+    position: absolute;
+    transform: rotate(-45deg);
+    font-size: 2em;
+    color: black;
+opacity: 0.5;
+    z-index: 10;
+    background-color: white;
+    top: 200px;
+    left: 50px;
+    border-radius: 10px;
+    padding: 6px 10px 6px 10px;
+    font-weight: bold;*/
+
+#box {
+    width:80%;
+   
+ margin: auto;
+    
+    height: 70vh;
+}
+img {
+    width:100%;
+   
+}
+
+
+.deroulant {
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+footer {
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-evenly;
+    width: 100%;
+    height:18vh;
+    
+   
+}
+
+
+/*.navigation{
+
+    
+   
+ margin: auto;
+ display: flex;
+ justify-content: space-evenly;
+   
+    
+}
+*/
+/*_________LIEN1__________*/
+
+.lien1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+     .lien1 span:before {
+        content: "\25C0";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: -20px;
+        transition: 0.5s;
+        color: white;
+      }
+     .lien1:hover {
+        background-color: navy;
+      }
+     .lien1:hover span {
+        padding-left: 25px;
+      }
+     .lien1:hover span:before{
+        opacity: 1;
+        left: 0;
+      }
+
+
+
+
+.lien1 {
+    background-color: #f3a080;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+     box-shadow: 0 0 3px #999;
+    transition: 1s;
+    margin-bottom: 60px;
+
+}
+
+.lien1:hover {
+    transform: translateY(-10px);
+    background-color: #e67e22;
+}
+      
+.lien1 a {
+    color: white;
+    text-decoration: none;
+   line-height: 30px;
+   text-transform: uppercase;
+}
+
+
+
+.lien1:hover{
+    background-color:#ec6632;
+    /*background-color: #ef937f;*/
+}
+
+
+.lien1:hover a{
+    color: aqua;
+   
+}
+
+
+
+
+
+
+/*_______LIEN1_________*/
+
+
+
+
+
+
+/*_______LIEN2*/
+
+
+.lien2 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+     .lien2 span:after {
+        content: "\25b6";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        color: white;
+      }
+     .lien2:hover {
+        background-color: navy;
+      }
+     .lien2:hover span {
+        padding-right: 25px;
+      }
+     .lien2:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+
+
+
+.lien2 {
+    background-color: #f3a080;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+      box-shadow: 0 0 3px #999;
+    transition: 1s;
+
+}
+ 
+ .lien2:hover {
+    transform: translateY(-10px);
+    background-color: #e67e22;
+}
+  
+
+.lien2 a {
+    color: white;
+    text-decoration: none;
+   line-height: 30px;
+   text-transform: uppercase;
+}
+
+
+
+.lien2:hover{
+    background-color:#ec6632;
+    /*background-color: #ef937f;*/
+}
+
+
+.lien2:hover a{
+    color: aqua;
+   
+}
+
+
+
+
+
+#cookiesAccept {
+    background:greenyellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    text-align: center;
+}
+#cookiesAccept.active {
+    display: none;
+}
+#cookiesAccept a, #filArianne a {
+    color: blue;
+}
+#cookiesAccept button {
+    padding: 5px 16px;
+    margin-left: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid olive;
+    color: olive;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#cookiesAccept button:hover {
+    background: olive;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*_____LIEN2_________________*/
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .oblique {
+        visibility: hidden;
+    }
+    .warning {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+

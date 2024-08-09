@@ -1,0 +1,51 @@
+.titre {
+color:blue;
+font-size: 1.3em;
+
+  background-color: #98da8d;
+}
+ p {
+
+font-size: 1em;
+	}
+
+img {
+
+width: 70%;
+height: auto;
+}
+
+
+@media all and (min-width: 1400px)
+{
+    body
+         {
+        
+             background-color: #FFFFE0;
+        
+        
+          }  
+
+ .titre {
+color:red;
+font-size: 1.6em;
+  }
+       
+  p {
+
+font-size: 1.4em;
+	}
+
+img {
+width: auto;
+height:800px;
+}
+
+
+a {
+font-size:1.1em;
+	}
+
+
+
+}

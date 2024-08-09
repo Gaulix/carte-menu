@@ -1,0 +1,213 @@
+body {
+  margin:0px;
+  padding:0px;
+  background-color:teal;
+}
+
+
+.titre {
+  
+  text-align: center;
+  
+  margin-top:20px;
+}
+
+
+#conteneur {
+  width:80%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-gap:30px;
+  margin:auto;
+  padding-top: 40px;
+  margin-top:20px;
+  font-size: 20px;
+ 
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+
+.boitetour {
+
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+  font-weight: bold; 
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px silver;
+  height:100px;
+}
+ 
+
+a:hover {
+  color:red;
+
+   transform:scale(1.6);
+  transition-duration:2s;
+
+
+}
+
+
+
+#boite1 {
+  background: green;
+}
+#boite1:hover {
+  background: aqua;
+}
+#boite3{
+background: red;
+}
+
+#boite3:hover {
+  background: blue;
+}
+
+#boite5{
+background: orange;
+}
+
+#boite5:hover {
+  background: purple;
+}
+
+#boite7{
+background: navy;
+}
+
+#boite7:hover {
+  background: gold;
+}
+#boite9{
+  background: fuchsia;
+}
+
+#boite9:hover {
+  background: maroon;
+}
+
+
+
+.boite4 {
+   display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+.boite6 {display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+
+
+.boite8 {
+  display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+.boite10 {
+   
+   display:flex;
+
+ justify-content: center;
+ align-items: center;
+}
+
+.boutdegomme {
+  width: 30%;
+
+}
+
+.lutinbazar {
+  width: 95%;
+
+}
+.dirlo {
+  width: 26%;
+
+}
+
+.coccinelle {
+  width: 25%;
+
+}
+
+.alysse {
+  width: 80%;
+  border-radius: 5px;
+   
+  
+
+}
+
+
+.boite11 {
+
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+  border-radius: 10px;
+  
+  height:100px;
+}
+
+.boite12 {
+   display:flex;
+margin:20px;
+ justify-content: center;
+ align-items: center;
+
+}
+.boite14 {
+   height:100px;
+}
+
+
+.retour {
+  padding-top:150px;
+  text-align: center;
+
+  font-size: 1.5em;
+}
+
+
+    @keyframes bouncing-loader {
+      to {
+        opacity: 0.1;
+        transform: translate3d(0, -1rem, 0);
+      }
+    }
+    .bouncing-loader {
+      display: flex;
+      justify-content: center;
+    }
+    .bouncing-loader > div {
+      width: 1rem;
+      height: 1rem;
+      margin: 3rem 0.2rem;
+      background: #8385aa;
+      border-radius: 50%;
+      animation: bouncing-loader 0.6s infinite alternate;
+    }
+    .bouncing-loader > div:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .bouncing-loader > div:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+
+

@@ -1,0 +1,146 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+     
+    background: -webkit-linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); 
+    background: -moz-linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    background: -o-linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: ghostwhite;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #f3f3f3;
+    text-transform: uppercase;
+}
+
+.grille {
+   
+    max-width: 1200px;
+    height: auto;
+    margin: 10px auto;
+    /* border: 1px solid #333; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+.grid-item {
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    margin: 30px;
+    
+
+}
+    
+    
+
+
+img {
+     width: 250px;
+     height: 150px;
+     border: 1px solid black;
+     border-radius: 7px;
+     margin: 10px;
+}
+/*img:hover {
+    cursor: pointer;
+}*/
+p {
+    font-size: 14px;  
+    text-align: center;
+    /*text-transform: uppercase;*/
+    
+    /*font-weight: bold;*/
+     }
+
+     p a {
+        color: rgb(98, 79, 41);
+        text-decoration: none;
+    }
+
+.lien {
+    text-align: center;
+    padding-top: 60px;  
+    
+}
+ .lien a{
+    
+color: rgb(60, 65, 134);
+        font-size: 18px;
+        color: ghostwhite;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #f3f3f3;
+    text-transform: uppercase;
+     }
+
+
+
+      button,
+      button::after {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+      button {
+        background: none;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        color: #fff;
+        display: block;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 60px auto;
+        padding: 0.6em 3em;
+        position: relative;
+        text-transform: uppercase;
+      }
+      button::before,
+      button::after {
+        background: #fff;
+        content: "";
+        position: absolute;
+        z-index: -1;
+      }
+      /*button:hover {
+        color: #29f2e4;
+      }*/
+     
+      .button3::after {
+        height: 0;
+        left: 50%;
+        top: 50%;
+        width: 0;
+      }
+      .button3:hover:after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      button a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+
+
+.button3:hover a{
+    color: red;
+}

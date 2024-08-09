@@ -1,0 +1,68 @@
+p {
+color:blue;
+font-size: 1.3em;
+text-align:center;
+
+  background-color: #98da8d;
+
+
+}
+
+.image {
+margin-top: 10px;
+width: 70%;
+margin-left:40px;
+}
+
+.gif {
+	margin-left:auto;
+	padding-left:20px;
+	
+}
+a {
+display:block;
+text-align:center;
+margin-left: auto;
+margin-right: auto; 
+}
+
+
+@media all and (min-width: 1400px)
+{
+          
+    
+
+p {
+	font-size:2em;
+	color:red;
+}
+
+a {
+font-size:1.2em;
+
+}
+
+
+
+
+}
+@keyframes tourne {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.couleur {
+	
+  
+ 
+  
+  animation: tourne 30s infinite;
+}

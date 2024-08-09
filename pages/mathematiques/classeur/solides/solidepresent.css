@@ -1,0 +1,22 @@
+.titre {
+color:blue;
+font-size: 1.3em;
+
+  background-color: #98da8d;
+}
+
+@media all and (min-width: 1400px)
+{
+         
+   
+img {
+	width:30%;
+	height:auto;
+	}
+a:hover
+{
+	color:red;
+	font-size: 200%;
+}
+
+}

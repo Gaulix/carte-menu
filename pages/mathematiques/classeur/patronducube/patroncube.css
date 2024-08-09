@@ -1,0 +1,52 @@
+.titre {
+	font-size:1.3em;
+	color:blue;
+	 background-color: #98da8d;
+	 text-align:center;
+}
+
+
+img {
+width:30%;
+margin-left: 200px;
+
+}
+
+
+.gif {
+
+margin-top:0px;
+padding-left:10px;	
+margin-left: auto;
+
+
+}
+
+
+
+
+a {
+display:block;
+text-align:center;
+margin-left: auto;
+margin-right: auto; 
+}
+
+
+@media all and (min-width: 1400px)
+{
+          
+    
+
+p {
+	font-size:2em;
+	color:red;
+}
+
+a {
+font-size:1.1em;
+}
+
+
+
+}

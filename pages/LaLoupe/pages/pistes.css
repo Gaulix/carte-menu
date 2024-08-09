@@ -1,0 +1,53 @@
+
+
+table {
+
+  width: 920px;
+
+  border:solid black 1px;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse:separate;
+  border-spacing:0px ;
+  border-radius: 5px;
+ box-shadow: gray 5px 5px 6px;
+
+}
+.bordered tr:hover {
+
+  background: #FFD8E0;
+}
+td {
+  border: 0.3px solid black;
+  padding-left: 10px;
+}
+
+p{
+  text-align: center;
+}
+
+.table2 {
+
+   width:200px;
+   border:none;
+   text-align: center;
+
+   
+}
+.cellule2{
+  border:none;
+  text-align: center;
+}
+
+@media all and (max-width: 800px)
+{ 
+
+   table
+  {
+  
+    width:70%;
+    height: auto;
+  }
+
+}
